@@ -1,0 +1,10 @@
+ul {
+    display:grid;
+    grid-template-columns: 1fr;
+}
+
+@media (width >= 1250px){ /* en caso de estar en una pantalla grande */
+    ul{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
