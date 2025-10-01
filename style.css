@@ -1,4 +1,6 @@
 ul {
+    margin-left: 20vw;
+    margin-top: 30vh;
     display:grid;
     grid-template-columns: 1fr;
 }
@@ -7,4 +9,13 @@ ul {
     ul{
         grid-template-columns: repeat(3, 1fr);
     }
+}
+
+#dialog {
+  margin-top: -45vh;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
